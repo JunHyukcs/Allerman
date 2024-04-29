@@ -1,0 +1,52 @@
+/* 공통속성 */
+*{box-sizing: border-box; padding: 0; margin: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{border-style: none; vertical-align: middle;	max-width: 100%;}
+body{font-family: 'Outfit','Pretendard','Dotum', sans-serif; color: #000; line-height: 1;}
+button{cursor: pointer; border: none;}
+
+/* 레이아웃 */
+
+/* header섹션 */
+#header{width: 100%; background: white; position: fixed; padding: 32px 0 17px; border-bottom: 1px solid #cfd0d0; top: 0; left: 0; transition: 0.2s linear;} 
+#header>.container{max-width: 1440px; margin: 0 auto; position: relative;}
+.topbar{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 50px; justify-content: space-between; margin: 0 auto; position: relative;}
+.logo{font-size: 2em; display: block; font-weight: bold;}
+#header img{vertical-align: middle; max-width: 100%;} 
+#header .topbar ul{display: flex; flex-wrap: wrap; align-items: center;}
+#header .topbar ul li{margin-right: 26px; letter-spacing: -0.05em; }
+#header .topbar ul li a{color: #999; font-size: 15px; font-weight: 700; line-height: 28px;}
+#header .topbar .menu_bt{width: 68px; margin-right: 4px; text-align: center; border: 1px solid #c2c2c2; font-size: 15px; font-weight: 700; letter-spacing: -0.05em; color: #394D62; line-height: 28px;}
+#header .topbar .header_search_btn button{font-size: 0; top: 50%; left: -22px; transform: translateY(-50%); position: absolute;}
+.btn_sh{width: 20px; height: 19px; background: url(../img/ico_sh_b.svg)no-repeat;}
+
+
+/* section섹션 */
+.section_banner{padding: 100px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen {
+    
+}
+
+
+
+
+
+
+
